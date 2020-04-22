@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-     <!-- font-awesome -->
- <script src="all.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font-awesome -->
+    <script src="all.js"></script>
     <title>Example Portfolio Website Template</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-------HEADER----->
+    <header class="header">
+      <!----first child-------->
+      <na class="nav"></na>
+      <!----end of first child-->
+      <!----second child-------->
+      <section class="banner">
+        <!---banner-container--->
+        <div class="banner-container">
+          <h1 class="banner-title">
+            i'm a clever techie
+          </h1>
+          <h1 class="banner-jobs">
+            developer
+            <span>
+              <i class="fas fa-angle-double-right"></i>
+            </span>
+            designer
+            <span>
+              <i class="fas fa-angle-double-right"></i>
+            </span>
+            photographer
+          </h1>
+        </div>
+      </section>
+      <!---end of second child--->
+    </header>
+    <!----END OF HEADER-->
 
-<script src="./scripts.js"></script>
-</body>
+    <!---ABOUT SECTION--------->
+    <section class="about">
+      <div class="about-center">
+        <article class="about-img">
+          <img
+            src="./img/header-bcg.jpeg"
+            alt="about photo"
+            class="about-img-photo"
+          />
+        </article>
+        <article class="about-info">
+          <div class="about-info-container">
+            <h1 class="about-info-title">about me</h1>
+            <p class="about-info-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              sunt velit alias ducimus, voluptas ea error eligendi tempore
+              cupiditate blanditiis.
+            </p>
+            <div class="about-info-links">
+                <a href="#" class="about-info-single-link dark-btn">hire me</a>
+                <a href="#" class="about-info-single-link light-btn">download cv</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!----END OF ABOUT SECTION-->
+    <script src="./scripts.js"></script>
+  </body>
 </html>
